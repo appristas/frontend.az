@@ -1,1 +1,2 @@
+import './src/global/fonts.css';
 import './src/global/style.css';
