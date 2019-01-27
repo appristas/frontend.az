@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import styles from './sidebar.module.css';
 
@@ -7,16 +8,24 @@ export default () => (
     <nav className={styles.nav}>
       <ul>
         <li>
-          <a href="">Yazılar</a>
+          <Link activeClassName={styles.active} to="/">
+            Yazılar
+          </Link>
         </li>
         <li>
-          <a href="">Videolar</a>
+          <Link activeClassName={styles.active} to="/videos">
+            Videolar
+          </Link>
         </li>
         <li>
-          <a href="">Kurslar</a>
+          <Link activeClassName={styles.active} to="/courses">
+            Kurslar
+          </Link>
         </li>
         <li>
-          <a href="">Tədbirlər</a>
+          <Link activeClassName={styles.active} to="/events">
+            Tədbirlər
+          </Link>
         </li>
       </ul>
     </nav>
