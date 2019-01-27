@@ -19,9 +19,9 @@ export default () => (
     `}
     render={data => (
       <aside className={styles.sidebar}>
-        <div className={styles.logo}>
+        <Link to="/" className={styles.logo}>
           <img src={logo} alt={data.site.siteMetadata.title} />
-        </div>
+        </Link>
         <nav className={styles.nav}>
           <ul>
             <li>

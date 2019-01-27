@@ -16,6 +16,10 @@ body {
   font-size: 12pt;
 }
 
+a {
+  border: 0px;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
