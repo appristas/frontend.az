@@ -16,8 +16,17 @@ body {
   font-size: 12pt;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 a {
   border: 0px;
+}
+
+.main {
+  padding: 35px;
 }
 
 .sr-only {

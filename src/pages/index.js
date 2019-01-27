@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import PostItem from '../components/PostItem/PostItem';
 
 export default ({ data }) => {
   const regex = /src\s*=\s*"(.+?)"/m;
@@ -11,10 +12,13 @@ export default ({ data }) => {
       image = parts[1];
     }
     return (
-      <div>
-        <img src={image} alt="" />
-        {node.title}
-      </div>
+      <PostItem
+        post={{
+          ...node,
+          image,
+          source: { url: 'https://medium.com', shortUrl: 'medium.com' }
+        }}
+      />
     );
   });
 
@@ -33,6 +37,7 @@ export const query = graphql`
           content {
             encoded
           }
+          creator
         }
       }
     }
