@@ -1,10 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { node } from 'prop-types';
 
-const Layout = ({ children }) => children;
+import Sidebar from './Sidebar';
+
+const Layout = ({ children }) => (
+  <>
+    <Sidebar />
+    <main role="main">{children}</main>
+  </>
+);
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: node.isRequired
 };
 
 export default Layout;
