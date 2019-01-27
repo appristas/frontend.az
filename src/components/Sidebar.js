@@ -4,7 +4,7 @@ import { StaticQuery, graphql, Link } from 'gatsby';
 import styles from './sidebar.module.css';
 
 import logo from '../assets/img/logo.svg';
-import { strictEqual } from 'assert';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default () => (
   <StaticQuery
@@ -46,6 +46,37 @@ export default () => (
             </li>
           </ul>
         </nav>
+        <div className={styles.footer}>
+          <Link activeClassName={styles.active} to="/about">
+            Layihə Haqqında
+          </Link>
+          <div className={styles.social}>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/appristas/frontend.az"
+                  title="Github"
+                  target="_blank"
+                  rel="external nofollow noreferrer"
+                >
+                  <FontAwesomeIcon icon={['fab', 'github']} />
+                  <span className="sr-only">Github</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://medium.com/frontend-azerbaijan"
+                  title="Medium"
+                  target="_blank"
+                  rel="external nofollow noreferrer"
+                >
+                  <FontAwesomeIcon icon={['fab', 'medium']} />
+                  <span className="sr-only">Medium</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </aside>
     )}
   />
