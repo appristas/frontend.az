@@ -30,6 +30,7 @@
     width: 35px;
     display: block;
     cursor: pointer;
+    z-index: 15;
 }
 
 .toggle div {
