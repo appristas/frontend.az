@@ -8,20 +8,22 @@
     padding: 30px;
     padding-top: 100px;
     flex-direction: column;
-    display: none;
+    display: flex;
     z-index: 10;
     box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2);
+    transform: translateX(-360px);
+    transition: 0.2s transform;
 }
 
 .sidebarActive {
-    display: flex;
+    transform: translateX(0);
 }
 
 @media only screen and (min-width: 1023px) {
     .sidebar {
-        display: flex;
         padding-top: 30px;
         box-shadow: none;
+        transform: translateX(0px);
     }
 }
 
