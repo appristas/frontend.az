@@ -11,4 +11,4 @@ install:
   - yarn test
   - yarn build
 after_success:
-  - firebase deploy --token=${FIREBASE_API_TOKEN} --project=${FIREBASE_PROJECT}
+  - firebase deploy --token $FIREBASE_API_TOKEN --project $FIREBASE_PROJECT
