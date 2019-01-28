@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 import { StaticQuery, graphql, Link } from 'gatsby';
 
 import styles from './header.module.css';
-import logo from '../../assets/img/logo.svg';
+import logo from '../../../assets/img/logo.svg';
 
-class SidebarToggle extends Component {
+import SidebarToggle from './SidebarToggle';
+import LayoutContext from '../LayoutContext';
+
+class Header extends Component {
+    static contextType = LayoutContext;
+
     state = { active: false };
 
     toggleSidebar = e => {
@@ -15,7 +20,7 @@ class SidebarToggle extends Component {
         return (
             <StaticQuery
                 query={graphql`
-                    query HeaderbarQuery {
+                    query HeaderQuery {
                         site {
                             siteMetadata {
                                 title
@@ -25,19 +30,7 @@ class SidebarToggle extends Component {
                 `}
                 render={data => (
                     <header className={styles.header}>
-                        <div className={styles.toggleCol}>
-                            <button
-                                type="button"
-                                className={`${styles.toggle} ${
-                                    this.state.active ? styles.active : ''
-                                }`}
-                                onClick={this.toggleSidebar}
-                            >
-                                <div />
-                                <div />
-                                <div />
-                            </button>
-                        </div>
+                        <SidebarToggle />
                         <Link to="/" className={styles.logo}>
                             <img src={logo} alt={data.site.siteMetadata.title} />
                         </Link>
@@ -48,4 +41,4 @@ class SidebarToggle extends Component {
     }
 }
 
-export default SidebarToggle;
+export default Header;

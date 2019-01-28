@@ -10,6 +10,10 @@
     display: none;
 }
 
+.sidebarActive {
+    display: flex;
+}
+
 @media only screen and (min-width: 1023px) {
     .sidebar {
         display: flex;
