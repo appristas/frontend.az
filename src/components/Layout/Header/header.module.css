@@ -23,6 +23,12 @@
 }
 
 .toggle {
+    background: transparent;
+    border: 0px;
+    padding: 5px;
+}
+
+.toggleBox {
     position: relative;
     background: transparent;
     border: 0px;
@@ -33,36 +39,36 @@
     z-index: 15;
 }
 
-.toggle div {
+.toggleBox div {
     position: absolute;
-    width: 100%;
+    width: 35px;
     height: 4px;
     display: block;
     background: #000000;
     transition: 0.2s transform, 0.2s opacity;
 }
 
-.toggle div:nth-child(1) {
+.toggleBox div:nth-child(1) {
     top: 0px;
 }
 
-.toggle div:nth-child(2) {
+.toggleBox div:nth-child(2) {
     top: 8px;
 }
 
-.toggle div:nth-child(3) {
+.toggleBox div:nth-child(3) {
     top: 16px;
 }
 
-.toggle.active div:nth-child(1) {
+.toggleBox.active div:nth-child(1) {
     transform: rotateZ(-45deg) translate(-5px, 6px);
 }
 
-.toggle.active div:nth-child(2) {
+.toggleBox.active div:nth-child(2) {
     transform: rotateZ(45deg);
 }
 
-.toggle.active div:nth-child(3) {
+.toggleBox.active div:nth-child(3) {
     transform: rotateZ(45deg) translate(-6px, -6px);
     opacity: 0;
 }

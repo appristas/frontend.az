@@ -11,14 +11,18 @@ class SidebarToggle extends Component {
             <div className={styles.toggleCol}>
                 <button
                     type="button"
-                    className={`${styles.toggle} ${
-                        this.context.sidebarActive ? styles.active : ''
-                    }`}
+                    className={styles.toggle}
                     onClick={this.context.toggleSidebar}
                 >
-                    <div />
-                    <div />
-                    <div />
+                    <div
+                        className={`${styles.toggleBox} ${
+                            this.context.sidebarActive ? styles.active : ''
+                        }`}
+                    >
+                        <div />
+                        <div />
+                        <div />
+                    </div>
                 </button>
             </div>
         );
