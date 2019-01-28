@@ -4,30 +4,30 @@ import { Link } from 'gatsby';
 import styles from './sidebar.module.css';
 
 const SidebarNav = () => (
-  <nav className={styles.nav}>
-    <ul>
-      <li>
-        <Link activeClassName={styles.active} to="/">
-          Yazılar
-        </Link>
-      </li>
-      <li>
-        <Link activeClassName={styles.active} to="/videos">
-          Videolar
-        </Link>
-      </li>
-      <li>
-        <Link activeClassName={styles.active} to="/courses">
-          Kurslar
-        </Link>
-      </li>
-      <li>
-        <Link activeClassName={styles.active} to="/events">
-          Tədbirlər
-        </Link>
-      </li>
-    </ul>
-  </nav>
+    <nav className={styles.nav}>
+        <ul>
+            <li>
+                <Link activeClassName={styles.active} to="/">
+                    Yazılar
+                </Link>
+            </li>
+            <li>
+                <Link activeClassName={styles.active} to="/videos">
+                    Videolar
+                </Link>
+            </li>
+            <li>
+                <Link activeClassName={styles.active} to="/courses">
+                    Kurslar
+                </Link>
+            </li>
+            <li>
+                <Link activeClassName={styles.active} to="/events">
+                    Tədbirlər
+                </Link>
+            </li>
+        </ul>
+    </nav>
 );
 
 export default SidebarNav;

@@ -5,44 +5,40 @@ import styles from './style.module.css';
 import Tags from '../Tags/Tags';
 
 const PostItem = ({ post }) => (
-  <article className={styles.article}>
-    <a
-      className={styles.image}
-      href={post.link}
-      style={{ backgroundImage: `url(${post.image})` }}
-    >
-      <img src={post.image} alt={post.title} className="sr-only" />
-    </a>
-    <div className={styles.content}>
-      <h2>
-        <a href={post.link}>{post.title}</a>
-      </h2>{' '}
-      <span className={styles.source}>
-        (
+    <article className={styles.article}>
         <a
-          href={post.source.url}
-          target="_blank"
-          rel="external noopener noreferrer"
+            className={styles.image}
+            href={post.link}
+            style={{ backgroundImage: `url(${post.image})` }}
         >
-          {post.source.shortUrl}
+            <img src={post.image} alt={post.title} className="sr-only" />
         </a>
-        )
-      </span>
-      <div className={styles.meta}>
-        {post.creator} | {post.date.toString()}
-      </div>
-      <Tags tags={post.categories} />
-    </div>
-  </article>
+        <div className={styles.content}>
+            <h2>
+                <a href={post.link}>{post.title}</a>
+            </h2>{' '}
+            <span className={styles.source}>
+                (
+                <a href={post.source.url} target="_blank" rel="external noopener noreferrer">
+                    {post.source.shortUrl}
+                </a>
+                )
+            </span>
+            <div className={styles.meta}>
+                {post.creator} | {post.date.toString()}
+            </div>
+            <Tags tags={post.categories} />
+        </div>
+    </article>
 );
 
 PostItem.propTypes = {
-  post: shape({
-    image: string.isRequired,
-    title: string.isRequired,
-    creator: string.isRequired,
-    date: objectOf(Date).isRequired
-  })
+    post: shape({
+        image: string.isRequired,
+        title: string.isRequired,
+        creator: string.isRequired,
+        date: objectOf(Date).isRequired
+    })
 };
 
 export default PostItem;
