@@ -42,9 +42,14 @@ const Tag = ({ tag }) => {
 
 const Tags = ({ tags }) => (
   <ul className={styles.tags}>
-    {tags.map(tag => (
-      <Tag key={tag} tag={tag} />
-    ))}
+    {tags
+      .sort((a, b) => {
+        if (a in langMap) return -1;
+        return a - b;
+      })
+      .map(tag => (
+        <Tag key={tag} tag={tag} />
+      ))}
   </ul>
 );
 
