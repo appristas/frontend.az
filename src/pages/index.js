@@ -7,16 +7,21 @@ import SEO from '../components/seo';
 
 export default ({ data }) => {
   const regex = /src\s*=\s*"(.+?)"/m;
-  const posts = data.allFeedMediumPub.edges.map(({ node }) => {
-    const parts = regex.exec(node.content.encoded);
+  const posts = data.allFeedMediumPub.edges.map((item, key) => {
+    const { content, pubDate, ...post } = item.node;
+    const parts = regex.exec(content.encoded);
     let image = null;
     if (parts !== null) {
       image = parts[1];
     }
+    const date = new Date(pubDate);
+
     return (
       <PostItem
+        key={key}
         post={{
-          ...node,
+          ...post,
+          date,
           image,
           source: { url: 'https://medium.com', shortUrl: 'medium.com' }
         }}

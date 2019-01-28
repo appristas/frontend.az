@@ -1,5 +1,5 @@
 import React from 'react';
-import { shape, string } from 'prop-types';
+import { shape, string, objectOf } from 'prop-types';
 import styles from './style.module.css';
 
 import Tags from '../Tags/Tags';
@@ -29,7 +29,7 @@ const PostItem = ({ post }) => (
         )
       </span>
       <div className={styles.meta}>
-        {post.creator} | {post.pubDate} | 5 min
+        {post.creator} | {post.date.toString()} | 5 min
       </div>
       <Tags tags={post.categories} />
     </div>
@@ -41,7 +41,7 @@ PostItem.propTypes = {
     image: string.isRequired,
     title: string.isRequired,
     creator: string.isRequired,
-    pubDate: string.isRequired
+    date: objectOf(Date).isRequired
   })
 };
 
