@@ -3,6 +3,8 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import PostItem from '../components/PostItem/PostItem';
 
+import SEO from '../components/seo';
+
 export default ({ data }) => {
   const regex = /src\s*=\s*"(.+?)"/m;
   const posts = data.allFeedMediumPub.edges.map(({ node }) => {
@@ -22,7 +24,12 @@ export default ({ data }) => {
     );
   });
 
-  return <Layout>{posts}</Layout>;
+  return (
+    <>
+      <SEO title="Feed" />
+      <Layout>{posts}</Layout>
+    </>
+  );
 };
 
 export const query = graphql`
