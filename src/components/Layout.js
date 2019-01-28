@@ -1,7 +1,7 @@
 import React from 'react';
 import { node } from 'prop-types';
 
-import Sidebar from './Sidebar';
+import Sidebar from './Sidebar/Sidebar';
 
 const Layout = ({ children }) => (
   <>

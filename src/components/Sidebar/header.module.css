@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 35px 35px 0 35px;
+    position: relative;
+}
+
+.header .logo {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1023px) {
+    .header {
+        display: none;
+    }
+}
+
+.toggleCol {
+    position: absolute;
+    left: 35px;
+    top: 55px;
+}
+
+.toggle {
+    position: relative;
+    background: transparent;
+    border: 0px;
+    height: 20px;
+    width: 35px;
+    display: block;
+    cursor: pointer;
+}
+
+.toggle div {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    background: #000000;
+    transition: 0.2s transform, 0.2s opacity;
+}
+
+.toggle div:nth-child(1) {
+    top: 0px;
+}
+
+.toggle div:nth-child(2) {
+    top: 8px;
+}
+
+.toggle div:nth-child(3) {
+    top: 16px;
+}
+
+.toggle.active div:nth-child(1) {
+    transform: rotateZ(-45deg) translate(-5px, 6px);
+}
+
+.toggle.active div:nth-child(2) {
+    transform: rotateZ(45deg);
+}
+
+.toggle.active div:nth-child(3) {
+    transform: rotateZ(45deg) translate(-6px, -6px);
+    opacity: 0;
+}
