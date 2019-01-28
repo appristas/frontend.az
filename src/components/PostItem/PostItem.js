@@ -20,7 +20,7 @@ const PostItem = ({ post }) => (
         <a
           href={post.source.url}
           target="_blank"
-          rel="external noreferrer nofollow"
+          rel="external noopener noreferrer"
         >
           {post.source.shortUrl}
         </a>

@@ -57,7 +57,7 @@ export default () => (
                   href="https://github.com/appristas/frontend.az"
                   title="Github"
                   target="_blank"
-                  rel="external nofollow noreferrer"
+                  rel="external noopener noreferrer"
                 >
                   <FontAwesomeIcon icon={['fab', 'github']} />
                   <span className="sr-only">Github</span>
@@ -68,7 +68,7 @@ export default () => (
                   href="https://medium.com/frontend-azerbaijan"
                   title="Medium"
                   target="_blank"
-                  rel="external nofollow noreferrer"
+                  rel="external noopener noreferrer"
                 >
                   <FontAwesomeIcon icon={['fab', 'medium']} />
                   <span className="sr-only">Medium</span>
