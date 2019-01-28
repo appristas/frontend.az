@@ -1,0 +1,51 @@
+.tags {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.tags li {
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 27px;
+  vertical-align: middle;
+}
+
+.language {
+  background: #000000;
+  color: #ffffff;
+  font-size: 0.8em;
+  padding: 0 15px;
+  border-radius: 10px;
+}
+
+.stack {
+  font-size: 1.5em;
+}
+
+.react {
+  color: #80d8f7;
+}
+
+.angular {
+  color: #cb2b39;
+}
+
+.vuejs {
+  color: #64b587;
+}
+
+.ember {
+  color: #d05843;
+}
+
+.html5 {
+  color: #d35735;
+}
+
+.css3 {
+  color: #3271b2;
+}
+
+.js {
+  color: #ecde66;
+}

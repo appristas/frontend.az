@@ -2,6 +2,8 @@ import React from 'react';
 import { shape, string } from 'prop-types';
 import styles from './style.module.css';
 
+import Tags from '../Tags/Tags';
+
 const PostItem = ({ post }) => (
   <article className={styles.article}>
     <a
@@ -9,7 +11,7 @@ const PostItem = ({ post }) => (
       href={post.link}
       style={{ backgroundImage: `url(${post.image})` }}
     >
-      <img src={post.image} alt={post.title} class="sr-only" />
+      <img src={post.image} alt={post.title} className="sr-only" />
     </a>
     <div className={styles.content}>
       <h2>
@@ -29,6 +31,7 @@ const PostItem = ({ post }) => (
       <div className={styles.meta}>
         {post.creator} | {post.pubDate} | 5 min
       </div>
+      <Tags tags={post.categories} />
     </div>
   </article>
 );
