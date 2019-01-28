@@ -29,7 +29,7 @@ const PostItem = ({ post }) => (
         )
       </span>
       <div className={styles.meta}>
-        {post.creator} | {post.date.toString()} | 5 min
+        {post.creator} | {post.date.toString()}
       </div>
       <Tags tags={post.categories} />
     </div>
