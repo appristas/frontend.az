@@ -3,8 +3,6 @@ path: '/about'
 title: 'Layihə Haqqında'
 ---
 
-[English version](https://github.com/appristas/frontend.az/blob/master/README.md)
-
 Bu layihə Azərbaycanda Frontend üzərindən başlamağı və təkminləşdirməyi asanlaşdırmaq üçün qurulmuşdur. Burada frontend ilə bağlı müxtəlif dillərdə yazılar, videolar, onlayn və yerli kurslar, və Azərbaycanda umumi development və frontend üzrə baş verən tədbirləri tapmaq olar.
 
 Buradakı resursların və paylaşmaların şəffaflığını göstərmək üçün bu sayt Open Source-dur və bütün yazılar Medium platformasında dərc edilir.
