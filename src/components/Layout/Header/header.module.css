@@ -14,8 +14,13 @@
     margin: 0 auto;
 }
 
+.headerSticky {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
 @media only screen and (min-width: 1023px) {
-    .header {
+    .header,
+    .toggleCol {
         display: none;
     }
 }

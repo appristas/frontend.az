@@ -10,12 +10,25 @@ import LayoutContext from '../LayoutContext';
 class Header extends Component {
     static contextType = LayoutContext;
 
-    state = { active: false };
+    state = { sticky: false };
 
-    toggleSidebar = e => {
-        e.preventDefault();
-        this.setState(prevState => ({ active: !prevState.active }));
+    stickyOnScroll = () => {
+        const scrollTop = window.scrollY;
+        if (scrollTop >= 100) {
+            this.setState({ sticky: true });
+        } else {
+            this.setState({ sticky: false });
+        }
     };
+
+    componentDidMount() {
+        document.addEventListener('scroll', this.stickyOnScroll);
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener('scroll', this.stickyOnScroll);
+    }
+
     render() {
         return (
             <StaticQuery
@@ -31,7 +44,11 @@ class Header extends Component {
                 render={data => (
                     <>
                         <SidebarToggle />
-                        <header className={styles.header}>
+                        <header
+                            className={`${styles.header} ${
+                                this.state.sticky ? styles.headerSticky : ''
+                            }`}
+                        >
                             <Link to="/" className={styles.logo}>
                                 <img src={logo} alt={data.site.siteMetadata.title} />
                             </Link>
