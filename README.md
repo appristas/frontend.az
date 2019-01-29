@@ -26,16 +26,11 @@ Do you want your or someone’s content to appear in this website? Please refer 
 
 ### Bug Reports
 
-If you see any type of bug in the website — translation issues, design issues, or functionality issues — please submit an Issue or a Pull Request in our Github page:
-
--   https://github.com/appristas/frontend.az/issues
--   https://github.com/appristas/frontend.az/pulls
+If you see any type of bug in the website — translation issues, design issues, or functionality issues — please submit an [Issue](https://github.com/appristas/frontend.az/issues) or a [Pull Request](https://github.com/appristas/frontend.az/pulls) in our Github page:
 
 ### Features
 
-New features **must be** approved by project contributors; so, we ask you to submit an Issue before doing any coding. If an unapproved feature is submitted as a Pull Request, it will be immediately denied.
-
-https://github.com/appristas/frontend.az/issues
+New features **must be** approved by project contributors; so, we ask you to submit an [Issue](https://github.com/appristas/frontend.az/issues) before doing any coding. If an unapproved feature is submitted as a Pull Request, it will be immediately denied.
 
 ### Request to join Medium Publication
 

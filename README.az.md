@@ -26,16 +26,11 @@ Aşağıda müxtəlif formalı qatqılar haqqında məlumat verilmisşdir.
 
 ### Səhvlərin düzəlişi
 
-Əgər saytda hər hansı bir səhv görsəniz — termin, tərcümə səhvi; design səhvi; və ya funskional səhv — Github səhifəmizdən Issue və ya Pull Request yaradın:
-
--   https://github.com/appristas/frontend.az/issues
--   https://github.com/appristas/frontend.az/pulls
+Əgər saytda hər hansı bir səhv görsəniz — termin, tərcümə səhvi; design səhvi; və ya funskional səhv — Github səhifəmizdən [Issue](https://github.com/appristas/frontend.az/issues) və ya [Pull Request](https://github.com/appristas/frontend.az/pulls) yaradın.
 
 ### Təkliflər
 
-Sayta əlavə edilən hər hansı yeni idea və ya təklif seçilmiş iştirakçılar tərəfindən qəbul edilməlidir. Bu səbəbdən təkliflər üçün ilkin olaraq Issue yaradılmalıdır. Əgər siz qəbul olunmamış yeniliklə bağlı Pull Request göndərsəniz, pull request ləğv ediləcək.
-
-https://github.com/appristas/frontend.az/issues
+Sayta əlavə edilən hər hansı yeni idea və ya təklif seçilmiş iştirakçılar tərəfindən qəbul edilməlidir. Bu səbəbdən təkliflər üçün ilkin olaraq [Issue](https://github.com/appristas/frontend.az/issues) yaradılmalıdır. Əgər siz qəbul olunmamış yeniliklə bağlı Pull Request göndərsəniz, pull request ləğv ediləcək.
 
 ### Medium Nəşriyyatına Qeydiyyat
 

@@ -3,6 +3,8 @@ path: '/about'
 title: 'Layihə Haqqında'
 ---
 
+[English version](https://github.com/appristas/frontend.az/blob/master/README.md)
+
 Bu layihə Azərbaycanda Frontend üzərindən başlamağı və təkminləşdirməyi asanlaşdırmaq üçün qurulmuşdur. Burada frontend ilə bağlı müxtəlif dillərdə yazılar, videolar, onlayn və yerli kurslar, və Azərbaycanda umumi development və frontend üzrə baş verən tədbirləri tapmaq olar.
 
 Buradakı resursların və paylaşmaların şəffaflığını göstərmək üçün bu sayt Open Source-dur və bütün yazılar Medium platformasında dərc edilir.
@@ -27,16 +29,11 @@ Aşağıda müxtəlif formalı qatqılar haqqında məlumat verilmisşdir.
 
 ### Səhvlərin düzəlişi
 
-Əgər saytda hər hansı bir səhv görsəniz — termin, tərcümə səhvi; design səhvi; və ya funskional səhv — Github səhifəmizdən Issue və ya Pull Request yaradın:
-
--   https://github.com/appristas/frontend.az/issues
--   https://github.com/appristas/frontend.az/pulls
+Əgər saytda hər hansı bir səhv görsəniz — termin, tərcümə səhvi; design səhvi; və ya funskional səhv — Github səhifəmizdən [Issue](https://github.com/appristas/frontend.az/issues) və ya [Pull Request](https://github.com/appristas/frontend.az/pulls) yaradın.
 
 ### Təkliflər
 
-Sayta əlavə edilən hər hansı yeni idea və ya təklif seçilmiş iştirakçılar tərəfindən qəbul edilməlidir. Bu səbəbdən təkliflər üçün ilkin olaraq Issue yaradılmalıdır. Əgər siz qəbul olunmamış yeniliklə bağlı Pull Request göndərsəniz, pull request ləğv ediləcək.
-
-https://github.com/appristas/frontend.az/issues
+Sayta əlavə edilən hər hansı yeni idea və ya təklif seçilmiş iştirakçılar tərəfindən qəbul edilməlidir. Bu səbəbdən təkliflər üçün ilkin olaraq [Issue](https://github.com/appristas/frontend.az/issues) yaradılmalıdır. Əgər siz qəbul olunmamış yeniliklə bağlı Pull Request göndərsəniz, pull request ləğv ediləcək.
 
 ### Medium Nəşriyyatına Qeydiyyat
 
@@ -44,7 +41,7 @@ Mediumda yazının nəşriyyata əlavə olunması üçün ilk öncə nəşriyyat
 
 [Frontend Azerbaijan - Medium Qeydiyyat](https://docs.google.com/forms/d/e/1FAIpQLSeQkp8PyHC2TLdmw0ngBhC6DoiTzVDC9XzRsoN89xKkyAOI2A/viewform)
 
-Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bilərsiniz. Səhifədəki bütün yazılar təsdiqlənməlidir. Yazınızı nəşriyyata dərc etmək üçün, [Medium Help URL-ına](https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication) baxın.
+Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bilərsiniz. Səhifədəki bütün yazılar təsdiqlənməlidir. Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bilərsiniz. Səhifədəki bütün yazılar təsdiqlənməlidir. Yazınızı nəşriyyata dərc etmək üçün, [Medium Help URL-ına](https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication) baxın.
 
 #### Medium yazılarının qaydaları:
 
