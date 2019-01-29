@@ -3,11 +3,13 @@ import { graphql } from 'gatsby';
 
 import { Layout } from '../components/Layout';
 
+import styles from './page.module.css';
+
 export default ({ data }) => {
     const { markdownRemark: post } = data;
     return (
         <Layout>
-            <article>
+            <article className={styles.article}>
                 <h1>{post.frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </article>

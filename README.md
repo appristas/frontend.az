@@ -33,7 +33,7 @@ If you see any type of bug in the website — translation issues, design issues,
 
 ### Features
 
-New features _must be_ approved by project contributors; so, we ask you to submit an Issue before doing any coding. If an unapproved feature is submitted as a Pull Request, it will be immediately denied.
+New features **must be** approved by project contributors; so, we ask you to submit an Issue before doing any coding. If an unapproved feature is submitted as a Pull Request, it will be immediately denied.
 
 https://github.com/appristas/frontend.az/issues
 
@@ -51,7 +51,7 @@ https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publica
 
 1. All posts published to the publication must have an image. If you can’t create your own image or struggle with finding photos, check out [Unsplash](https://www.unsplash.com) for free photos.
 2. If a photo / image belongs to somebody else, it is required that you attribute the original content creator. This is one of the other ways to ensure transparency of our publication. Posts with unlicensed photos will not be approved for publishing.
-3. Post language must be defined with a tag (Azerbaijani, English, Russian, Turkish). _Note:_ Currently, only Azerbaijani posts are accepted to our publication. This rule will definitely change in the future once we have enough posts in Azerbaijani language
+3. Post language must be defined with a tag (Azerbaijani, English, Russian, Turkish). **Note:** Currently, only Azerbaijani posts are accepted to our publication. This rule will definitely change in the future once we have enough posts in Azerbaijani language
 4. Used technology in the post must be defined in a tag
 
 ## Links

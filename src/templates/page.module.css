@@ -1,0 +1,45 @@
+.article {
+    line-height: 1.5;
+}
+
+.article ul,
+.article ol {
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+.article li p {
+    margin: 5px 0;
+}
+
+.article li {
+    margin: 5px 0;
+}
+
+.article p,
+.article ul,
+.article ol {
+    margin: 15px 0;
+}
+
+.article h1 {
+    font-size: 2em;
+}
+
+.article h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 5px;
+}
+
+.article h3 {
+    font-size: 1.2em;
+}
+
+.article a {
+    color: #3498db;
+}
+
+.article a:hover {
+    color: #2c82c9;
+}
