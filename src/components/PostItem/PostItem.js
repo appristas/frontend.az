@@ -18,7 +18,7 @@ const PostItem = ({ post }) => (
         <div className={styles.content}>
             <h2>
                 <a href={post.link}>{post.title}</a>
-            </h2>{' '}
+            </h2>
             <span className={styles.source}>
                 (
                 <a href={post.source.url} target="_blank" rel="external noopener noreferrer">
