@@ -13,7 +13,9 @@
 
 .imageCol {
     width: 75px;
+    height: 75px;
     display: block;
+    overflow: hidden;
 }
 
 .image {
@@ -23,11 +25,17 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     display: block;
+    transition: 0.2s transform;
+}
+
+.image:hover {
+    transform: scale(1.2);
 }
 
 @media only screen and (min-width: 1023px) {
     .imageCol {
         width: 110px;
+        height: 110px;
     }
 
     .image {
@@ -58,6 +66,10 @@
     color: inherit;
 }
 
+.content h2 a:hover {
+    text-decoration: underline;
+}
+
 .meta {
     color: #8e8b8b;
     margin: 8px 0;
@@ -71,4 +83,8 @@
 .source a {
     color: inherit;
     text-decoration: none;
+}
+
+.source a:hover {
+    text-decoration: underline;
 }

@@ -63,6 +63,10 @@
     border: 1px solid transparent;
 }
 
+.nav a:hover {
+    color: #31c6e8;
+}
+
 .nav a.active {
     border: 1px solid #31c6e8;
     color: #31c6e8;
@@ -77,7 +81,8 @@
     text-decoration: none;
 }
 
-.footer a.active {
+.footer a.active,
+.footer a:hover {
     font-weight: bold;
 }
 
@@ -91,10 +96,16 @@
 }
 
 .social li {
-    margin-right: 20px;
+    margin-right: 25px;
     display: inline-block;
 }
 
 .social a {
     color: #000000;
+    transition: 0.2s transform;
+    display: block;
+}
+
+.social a:hover {
+    transform: scale(1.3);
 }
