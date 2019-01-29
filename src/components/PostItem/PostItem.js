@@ -6,13 +6,15 @@ import Tags from '../Tags/Tags';
 
 const PostItem = ({ post }) => (
     <article className={styles.article}>
-        <a
-            className={styles.image}
-            href={post.link}
-            style={{ backgroundImage: `url(${post.image})` }}
-        >
-            <img src={post.image} alt={post.title} className="sr-only" />
-        </a>
+        <div className={styles.imageCol}>
+            <a
+                className={styles.image}
+                href={post.link}
+                style={{ backgroundImage: `url(${post.image})` }}
+            >
+                <img src={post.image} alt={post.title} className="sr-only" />
+            </a>
+        </div>
         <div className={styles.content}>
             <h2>
                 <a href={post.link}>{post.title}</a>

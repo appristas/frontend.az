@@ -1,52 +1,68 @@
 .article {
-  padding: 25px;
-  background: #f8f8f8;
-  margin: 25px 0;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
+    padding: 25px;
+    background: #f8f8f8;
+    margin: 25px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .article:first-child {
-  margin-top: 0px;
+    margin-top: 0px;
+}
+
+.imageCol {
+    width: 75px;
+    display: block;
 }
 
 .image {
-  width: 110px;
-  height: 110px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 10px;
-  display: block;
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: block;
+}
+
+@media only screen and (min-width: 1023px) {
+    .imageCol {
+        width: 110px;
+    }
+
+    .image {
+        width: 110px;
+        height: 110px;
+    }
 }
 
 .content {
-  padding: 7px 25px;
+    padding: 7px 25px;
 }
 
 .content h2 {
-  font-weight: normal;
-  font-size: 1.2em;
-  display: inline-block;
-  margin-right: 20px;
+    font-weight: normal;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .content h2 a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .meta {
-  color: #8e8b8b;
-  margin: 8px 0;
-  font-size: 0.8em;
+    color: #8e8b8b;
+    margin: 8px 0;
+    font-size: 0.8em;
 }
 
 .source {
-  color: #8f8b8b;
+    color: #8f8b8b;
 }
 
 .source a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
