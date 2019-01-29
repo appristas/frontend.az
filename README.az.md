@@ -8,7 +8,7 @@ Buradakı resursların və paylaşmaların şəffaflığını göstərmək üç�
 
 ## İştirakçılar
 
--   Gasim Gasimzada - Layihə Başladıcısı, Yazar (Appristas şirkəti)
+-   Gasim Gasimzada - Layihə Başladıcısı (Appristas)
 
 -   İlkin Quluzadə - Yazar
 
