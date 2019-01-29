@@ -4,6 +4,8 @@ import styles from './style.module.css';
 
 import Tags from '../Tags/Tags';
 
+const postDateOptions = { month: 'long', day: '2-digit', year: 'numeric' };
+
 const PostItem = ({ post }) => (
     <article className={styles.article}>
         <div className={styles.imageCol}>
@@ -27,7 +29,7 @@ const PostItem = ({ post }) => (
                 )
             </span>
             <div className={styles.meta}>
-                {post.creator} | {post.date.toString()}
+                {post.creator} | {post.date.toLocaleDateString('az-AZ', postDateOptions)}
             </div>
             <Tags tags={post.categories} />
         </div>
