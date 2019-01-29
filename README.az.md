@@ -43,9 +43,7 @@ Mediumda yazının nəşriyyata əlavə olunması üçün ilk öncə nəşriyyat
 
 [Frontend Azerbaijan - Medium Qeydiyyat](https://docs.google.com/forms/d/e/1FAIpQLSeQkp8PyHC2TLdmw0ngBhC6DoiTzVDC9XzRsoN89xKkyAOI2A/viewform)
 
-Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bilərsiniz. Səhifədəki bütün yazılar təsdiqlənməlidir.
-
-https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication
+Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bilərsiniz. Səhifədəki bütün yazılar təsdiqlənməlidir. Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bilərsiniz. Səhifədəki bütün yazılar təsdiqlənməlidir. Yazınızı nəşriyyata dərc etmək üçün, [Medium Help URL-ına](https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication) baxın.
 
 #### Medium yazılarının qaydaları:
 
@@ -61,6 +59,4 @@ https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publica
 
 ## Lisenziya
 
-Bu səhifə MIT licenziyası ilə yazılıb dərc olunub. Daha ətraflı məlumat üçün Github səhifəsində lisenziya faylına baxın:
-
-https://github.com/appristas/frontend.az/blob/master/LICENSE
+Bu səhifə MIT licenziyası ilə yazılıb dərc olunub. Daha ətraflı məlumat üçün Github səhifəsində [lisenziya faylına](https://github.com/appristas/frontend.az/blob/master/LICENSE) baxın.

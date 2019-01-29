@@ -43,9 +43,7 @@ Before writing to a Medium publication, writers must be added as a member to the
 
 [Frontend Azerbaijan - Medium Qeydiyyat](https://docs.google.com/forms/d/e/1FAIpQLSeQkp8PyHC2TLdmw0ngBhC6DoiTzVDC9XzRsoN89xKkyAOI2A/viewform)
 
-Once you have joined our publication, you can add your post to our publication. All the posts must be approved by project editors to before publishing. Please refer to the link below on how to add your post to a publication (English):
-
-https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication
+Once you have joined our publication, you can add your post to our publication. All the posts must be approved by project editors to before publishing. Please refer to the [Medium Help URL](https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication) below on how to add your post to a publication (English).
 
 #### Medium Post Guidelines
 
@@ -61,4 +59,4 @@ https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publica
 
 ## Licence
 
-This website is licensed under MIT License. For detailed information, check out the licence in our Github page: https://github.com/appristas/frontend.az/blob/master/LICENSE
+This website is licensed under MIT License. For detailed information, check out the [licence file](https://github.com/appristas/frontend.az/blob/master/LICENSE) in Github.
