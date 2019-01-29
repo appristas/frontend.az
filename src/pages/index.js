@@ -31,7 +31,7 @@ export default ({ data }) => {
 
     return (
         <>
-            <SEO title="Feed" />
+            <SEO title="Yazılar" />
             <Layout>{posts}</Layout>
         </>
     );
