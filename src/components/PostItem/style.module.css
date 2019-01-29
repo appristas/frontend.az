@@ -13,7 +13,7 @@
 
 .imageCol {
     width: 75px;
-    height: 75px;
+    min-height: 75px;
     display: block;
     overflow: hidden;
 }
@@ -46,6 +46,7 @@
 
 .content {
     padding: 7px 25px;
+    flex: 1;
 }
 
 .content h2 {
