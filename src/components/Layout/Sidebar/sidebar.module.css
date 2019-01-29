@@ -1,17 +1,17 @@
 .sidebar {
-    width: 360px;
+    width: 90%;
     background: #f8f8f8;
     position: fixed;
     left: 0px;
     top: 0px;
     height: 100vh;
-    padding: 30px;
-    padding-top: 100px;
+    padding: 100px 30px 50px 30px;
     flex-direction: column;
     display: flex;
     z-index: 10;
     box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2);
-    transform: translateX(-360px);
+    transform: translateX(-120%);
+    transform-origin: top left;
     transition: 0.2s transform;
 }
 
@@ -21,7 +21,8 @@
 
 @media only screen and (min-width: 1023px) {
     .sidebar {
-        padding-top: 30px;
+        width: 360px;
+        padding: 30px;
         box-shadow: none;
         transform: translateX(0px);
     }
