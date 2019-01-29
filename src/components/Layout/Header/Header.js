@@ -29,12 +29,14 @@ class Header extends Component {
                     }
                 `}
                 render={data => (
-                    <header className={styles.header}>
+                    <>
                         <SidebarToggle />
-                        <Link to="/" className={styles.logo}>
-                            <img src={logo} alt={data.site.siteMetadata.title} />
-                        </Link>
-                    </header>
+                        <header className={styles.header}>
+                            <Link to="/" className={styles.logo}>
+                                <img src={logo} alt={data.site.siteMetadata.title} />
+                            </Link>
+                        </header>
+                    </>
                 )}
             />
         );
