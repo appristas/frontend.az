@@ -27,6 +27,13 @@ module.exports = {
             }
         },
         {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `courses`,
+                path: `${__dirname}/content/courses`
+            }
+        },
+        {
             resolve: 'gatsby-transformer-remark',
             options: {
                 plugins: []

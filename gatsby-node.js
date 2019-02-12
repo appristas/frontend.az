@@ -1,12 +1,31 @@
 const path = require('path');
 
+exports.onCreateNode = ({ node, actions, getNode }) => {
+    const { createNodeField } = actions;
+
+    if (node.internal.type !== `MarkdownRemark`) {
+        return;
+    }
+
+    const parent = getNode(node.parent);
+
+    createNodeField({
+        node,
+        name: 'collection',
+        value: parent.sourceInstanceName
+    });
+};
+
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions;
 
     const blogPostTemplate = path.resolve(`src/templates/page.js`);
     return graphql(`
         {
-            allMarkdownRemark(limit: 1000) {
+            allMarkdownRemark(
+                limit: 1000
+                filter: { internal: { sourceInstanceName: { eq: "pages" } } }
+            ) {
                 edges {
                     node {
                         frontmatter {
