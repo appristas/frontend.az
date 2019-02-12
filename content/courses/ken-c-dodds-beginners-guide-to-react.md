@@ -5,7 +5,7 @@ author: Kent C. Dodds
 tags:
     - azerbaijani
     - react
-type: online
+type: Onlayn
 provider: egghead.io
 duration:
     - 19 dərs
