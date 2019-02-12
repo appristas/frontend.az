@@ -1,0 +1,16 @@
+.course {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.cover {
+    width: 100%;
+    padding-bottom: 66.666%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    padding: 15px;
+    background: #f8f8f8;
+}

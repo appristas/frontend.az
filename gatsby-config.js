@@ -13,6 +13,13 @@ module.exports = {
             }
         },
         {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `content-images`,
+                path: `${__dirname}/content/img`
+            }
+        },
+        {
             resolve: `gatsby-source-rss-feed`,
             options: {
                 url: `https://medium.com/feed/frontend-azerbaijan`,

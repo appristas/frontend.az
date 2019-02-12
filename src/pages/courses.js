@@ -24,8 +24,19 @@ export const query = graphql`
         allMarkdownRemark(filter: { fields: { collection: { eq: "courses" } } }) {
             edges {
                 node {
+                    id
                     frontmatter {
                         title
+                        price
+                        author
+                        tags
+                        type
+                        provider
+                        duration
+                        url
+                        attachments {
+                            publicURL
+                        }
                     }
                 }
             }
