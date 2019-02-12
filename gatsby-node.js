@@ -22,10 +22,7 @@ exports.createPages = ({ actions, graphql }) => {
     const blogPostTemplate = path.resolve(`src/templates/page.js`);
     return graphql(`
         {
-            allMarkdownRemark(
-                limit: 1000
-                filter: { internal: { sourceInstanceName: { eq: "pages" } } }
-            ) {
+            allMarkdownRemark(limit: 1000, filter: { fields: { collection: { eq: "pages" } } }) {
                 edges {
                     node {
                         frontmatter {
