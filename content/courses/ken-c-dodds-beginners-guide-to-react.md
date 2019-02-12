@@ -3,7 +3,7 @@ title: The Beginner's Guide to React
 price: $40/ay
 author: Kent C. Dodds
 tags:
-    - azerbaijani
+    - english
     - react
 type: Onlayn
 provider: egghead.io
