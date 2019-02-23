@@ -45,3 +45,15 @@
     color: #2c82c9;
     text-decoration: underline;
 }
+
+.article img {
+    display: inline;
+}
+
+.article a img {
+    transition: 0.2s transform;
+}
+
+.article a:hover img {
+    transform: scale(1.1);
+}

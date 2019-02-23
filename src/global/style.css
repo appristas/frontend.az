@@ -46,3 +46,12 @@ a {
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
+.appristas-logo {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.appristas-logo img {
+    width: 200px;
+}

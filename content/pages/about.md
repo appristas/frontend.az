@@ -62,3 +62,9 @@ Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bil
 ## Lisenziya
 
 Bu səhifə MIT licenziyası ilə dərc olunub. Daha ətraflı məlumat üçün Github səhifəsində [lisenziya faylına](https://github.com/appristas/frontend.az/blob/master/LICENSE) baxın.
+
+<div class="appristas-logo">
+
+[![Appristas](/images/appristas-h.png)](https://appristas.io)
+
+</div>
