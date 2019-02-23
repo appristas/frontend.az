@@ -14,6 +14,10 @@ In order to provide transparency of provided content, the project’s website is
 
 -   Orxan Shukurlu - Writer
 
+-   Fuad Rustamzada - Writer
+
+-   Abdulla Emchiyev - Writer
+
 ## Contribution Guidelines
 
 Here is a list of provided guidelines for different types of contributions:

@@ -15,6 +15,10 @@ Buradakı resursların və paylaşmaların şəffaflığını göstərmək üç�
 
 -   Orxan Şükürlü - Yazar
 
+-   Fuad Rüstəmzadə - Yazar
+
+-   Abdulla Emçiyev - Yazar
+
 ## İştirakçı Qaydaları
 
 Aşağıda müxtəlif formalı qatqılar haqqında məlumat verilmisşdir.
