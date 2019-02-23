@@ -4,9 +4,10 @@ import styles from './style.module.css';
 import Tags from '../Tags/Tags';
 
 import { Meta } from '../Content';
+import { Col } from '../Grid';
 
 const CourseItem = ({ data }) => (
-    <article className={styles.course}>
+    <Col as="article">
         <a className={styles.cover} href={data.url}>
             <div
                 className={styles.coverImage}
@@ -22,7 +23,7 @@ const CourseItem = ({ data }) => (
             <Meta data={[data.author, ...data.duration]} />
             <Tags tags={data.tags} />
         </div>
-    </article>
+    </Col>
 );
 
 export default CourseItem;

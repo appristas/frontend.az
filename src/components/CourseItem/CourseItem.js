@@ -3,9 +3,10 @@ import React from 'react';
 import styles from './style.module.css';
 import Tags from '../Tags/Tags';
 import { Meta } from '../Content';
+import { Col } from '../Grid';
 
 const CourseItem = ({ data }) => (
-    <article className={styles.course}>
+    <Col as="article">
         <a className={styles.cover} href={data.url}>
             <div
                 className={styles.coverImage}
@@ -22,7 +23,7 @@ const CourseItem = ({ data }) => (
             <Tags tags={data.tags} />
         </div>
         <div className={styles.price}>{data.price}</div>
-    </article>
+    </Col>
 );
 
 export default CourseItem;
