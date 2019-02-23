@@ -1,5 +1,5 @@
 .course {
-    width: calc(100%);
+    width: 100%;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
@@ -81,8 +81,4 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     color: white;
     font-weight: bold;
-}
-
-.meta {
-    margin: 8px 0;
 }

@@ -29,11 +29,7 @@ const PostItem = ({ post }) => (
                 </a>
                 )
             </span>
-            <div className={styles.meta}>
-                <Meta
-                    data={[post.creator, post.date.toLocaleDateString('az-AZ', postDateOptions)]}
-                />
-            </div>
+            <Meta data={[post.creator, post.date.toLocaleDateString('az-AZ', postDateOptions)]} />
             <Tags tags={post.categories} />
         </div>
     </article>

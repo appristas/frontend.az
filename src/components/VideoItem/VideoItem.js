@@ -19,9 +19,7 @@ const CourseItem = ({ data }) => (
             <h2>
                 <a href={data.url}>{data.title}</a>
             </h2>
-            <div className={styles.meta}>
-                <Meta data={[data.author, ...data.duration]} />
-            </div>
+            <Meta data={[data.author, ...data.duration]} />
             <Tags tags={data.tags} />
         </div>
     </article>
