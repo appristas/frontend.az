@@ -1,7 +1,8 @@
 module.exports = {
     siteMetadata: {
         title: `Frontend Azerbaijan`,
-        description: `Frontend və Javascript dünyasından maraqlı resurslar`
+        description: `Frontend və Javascript dünyasından maraqlı resurslar`,
+        author: 'Gasim Gasimzada'
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -58,16 +59,16 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `Frontend Azerbaijan`,
+                short_name: `Frontend Azerbaijan`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#663399`,
-                display: `minimal-ui`
+                background_color: `#ffffff`,
+                theme_color: `#31c6e8`,
+                display: `browser`,
+                icon: `src/assets/favicon/favicon.svg`,
+                include_favicon: true
             }
-        }
-        // this (optional) plugin enables Progressive Web App + Offline functionality
-        // To learn more, visit: https://gatsby.app/offline
-        // 'gatsby-plugin-offline',
+        },
+        `gatsby-plugin-offline`
     ]
 };
