@@ -14,7 +14,7 @@ export default ({ data }) => {
 
     return (
         <>
-            <SEO title="Kurslar" />
+            <SEO title="Videolar" />
             <Layout>
                 <Row>{videos}</Row>
             </Layout>
