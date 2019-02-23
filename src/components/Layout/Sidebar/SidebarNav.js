@@ -21,11 +21,11 @@ const SidebarNav = () => (
                     Kurslar
                 </Link>
             </li>
-            <li>
+            {/* <li>
                 <Link activeClassName={styles.active} to="/events">
                     Tədbirlər
                 </Link>
-            </li>
+            </li> */}
         </ul>
     </nav>
 );
