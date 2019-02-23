@@ -1,0 +1,19 @@
+.meta {
+    display: block;
+    color: #8e8b8b;
+    font-size: 0.8em;
+}
+
+.meta li {
+    display: inline-block;
+}
+
+.meta li::after {
+    content: '|';
+    margin: 0 5px;
+}
+
+.meta li:last-child::after {
+    content: '';
+    display: none;
+}

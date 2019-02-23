@@ -3,6 +3,7 @@ import { shape, string, objectOf } from 'prop-types';
 import styles from './style.module.css';
 
 import Tags from '../Tags/Tags';
+import { Meta } from '../Content';
 
 const postDateOptions = { month: 'long', day: '2-digit', year: 'numeric' };
 
@@ -29,7 +30,9 @@ const PostItem = ({ post }) => (
                 )
             </span>
             <div className={styles.meta}>
-                {post.creator} | {post.date.toLocaleDateString('az-AZ', postDateOptions)}
+                <Meta
+                    data={[post.creator, post.date.toLocaleDateString('az-AZ', postDateOptions)]}
+                />
             </div>
             <Tags tags={post.categories} />
         </div>

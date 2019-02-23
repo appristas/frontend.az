@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './style.module.css';
 import Tags from '../Tags/Tags';
+import { Meta } from '../Content';
 
 const CourseItem = ({ data }) => (
     <article className={styles.course}>
@@ -18,11 +19,7 @@ const CourseItem = ({ data }) => (
                 <a href={data.url}>{data.title}</a>
             </h2>
             <div className={styles.meta}>
-                {data.author} |{' '}
-                {data.duration.map((d, k) => (
-                    <React.Fragment key={k}>{d} | </React.Fragment>
-                ))}{' '}
-                {data.provider} | {data.type}
+                <Meta data={[data.author, ...data.duration, data.provider, data.type]} />
             </div>
             <Tags tags={data.tags} />
         </div>
