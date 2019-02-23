@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 const GridCover = ({ url, image, title }) => {
     let Tag = url ? 'a' : 'div';
-    const props = url ? { url } : {};
+    const props = url ? { href: url } : {};
 
     return (
         <Tag className={styles.cover} {...props}>
