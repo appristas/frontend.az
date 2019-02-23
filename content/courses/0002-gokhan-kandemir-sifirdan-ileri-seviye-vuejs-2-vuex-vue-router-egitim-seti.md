@@ -6,7 +6,7 @@ tags:
     - turkish
     - vue
 type: Onlayn
-provider: udemy.com
+provider: Udemy
 duration:
     - 397 dərs
     - 28 saat
