@@ -2,8 +2,7 @@ import React from 'react';
 import { shape, string, objectOf } from 'prop-types';
 import styles from './style.module.css';
 
-import Tags from '../Tags/Tags';
-import { Meta } from '../Content';
+import { Meta, Tags } from '../Content';
 
 const postDateOptions = { month: 'long', day: '2-digit', year: 'numeric' };
 

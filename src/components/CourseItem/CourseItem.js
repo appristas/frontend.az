@@ -1,8 +1,7 @@
 import React from 'react';
 
 import styles from './style.module.css';
-import Tags from '../Tags/Tags';
-import { Meta } from '../Content';
+import { Meta, Tags } from '../Content';
 import { Col } from '../Grid';
 
 const CourseItem = ({ data }) => (
