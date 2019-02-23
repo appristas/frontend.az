@@ -1,65 +1,51 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, withPrefix } from 'gatsby';
 
-function SEO({ description, lang, meta, keywords, title }) {
+function SEO({ description, lang, keywords, title }) {
     return (
         <StaticQuery
             query={detailsQuery}
             render={data => {
                 const metaDescription = description || data.site.siteMetadata.description;
                 return (
-                    <Helmet
-                        htmlAttributes={{
-                            lang
-                        }}
-                        title={title}
-                        titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-                        meta={[
-                            {
-                                name: `description`,
-                                content: metaDescription
-                            },
-                            {
-                                property: `og:title`,
-                                content: title
-                            },
-                            {
-                                property: `og:description`,
-                                content: metaDescription
-                            },
-                            {
-                                property: `og:type`,
-                                content: `website`
-                            },
-                            {
-                                name: `twitter:card`,
-                                content: `summary`
-                            },
-                            {
-                                name: `twitter:creator`,
-                                content: data.site.siteMetadata.author
-                            },
-                            {
-                                name: `twitter:title`,
-                                content: title
-                            },
-                            {
-                                name: `twitter:description`,
-                                content: metaDescription
-                            }
-                        ]
-                            .concat(
-                                keywords.length > 0
-                                    ? {
-                                          name: `keywords`,
-                                          content: keywords.join(`, `)
-                                      }
-                                    : []
-                            )
-                            .concat(meta)}
-                    />
+                    <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`}>
+                        <html lang={lang} />
+                        <title>{title}</title>
+                        <meta name="description" content={metaDescription} />
+                        <meta name="keywords" content={keywords.join(',')} />
+                        <meta property="og:title" content={title} />
+                        <meta property="og:description" content={metaDescription} />
+                        <meta property="og:type" content="website" />
+                        <meta property="twitter:card" content="summary" />
+                        <meta property="twitter:author" content={data.site.siteMetadata.author} />
+                        <meta property="twitter:title" content={title} />
+                        <meta property="twitter:description" content={metaDescription} />
+                        <link rel="shortcut icon" href={withPrefix('/favicon/favicon.ico')} />
+                        <link
+                            rel="apple-touch-icon"
+                            sizes="180x180"
+                            href={withPrefix('/favicon/apple-touch-icon.png')}
+                        />
+                        <link
+                            rel="icon"
+                            type="image/png"
+                            sizes="32x32"
+                            href={withPrefix('/favicon/favicon-32x32.png')}
+                        />
+                        <link
+                            rel="icon"
+                            type="image/png"
+                            sizes="16x16"
+                            href={withPrefix('/favicon/favicon-16x16.png')}
+                        />
+                        <link
+                            rel="mask-icon"
+                            href={withPrefix('/favicon/safari-pinned-tab.svg')}
+                            color="#31c6e8"
+                        />
+                    </Helmet>
                 );
             }}
         />

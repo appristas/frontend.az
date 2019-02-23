@@ -65,8 +65,19 @@ module.exports = {
                 background_color: `#ffffff`,
                 theme_color: `#31c6e8`,
                 display: `browser`,
-                icon: `src/assets/favicon/favicon.svg`,
-                include_favicon: true
+                include_favicon: false,
+                icons: [
+                    {
+                        src: '/favicon/android-chrome-192x192.png',
+                        sizes: '512x512',
+                        type: 'image/png'
+                    },
+                    {
+                        src: '/favicon/android-chrome-512x512.png',
+                        sizes: '512x512',
+                        type: 'image/png'
+                    }
+                ]
             }
         },
         `gatsby-plugin-offline`
