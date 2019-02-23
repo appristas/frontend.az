@@ -19,6 +19,8 @@ Buradakı resursların və paylaşmaların şəffaflığını göstərmək üç�
 
 -   Abdulla Emçiyev - Yazar
 
+-   Rufət Ağazadə - Loqo Dizayn
+
 ## İştirakçı Qaydaları
 
 Aşağıda müxtəlif formalı qatqılar haqqında məlumat verilmisşdir.

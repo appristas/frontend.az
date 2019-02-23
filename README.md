@@ -18,6 +18,8 @@ In order to provide transparency of provided content, the project’s website is
 
 -   Abdulla Emchiyev - Writer
 
+-   Rufat Agazade - Logo Design
+
 ## Contribution Guidelines
 
 Here is a list of provided guidelines for different types of contributions:
