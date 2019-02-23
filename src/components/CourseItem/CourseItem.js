@@ -1,19 +1,12 @@
 import React from 'react';
 
 import styles from './style.module.css';
-import { Meta, Tags } from '../Content';
+import { Meta, Tags, GridCover } from '../Content';
 import { Col } from '../Grid';
 
 const CourseItem = ({ data }) => (
     <Col as="article">
-        <a className={styles.cover} href={data.url}>
-            <div
-                className={styles.coverImage}
-                style={{ backgroundImage: `url(${data.attachments[0].publicURL})` }}
-            >
-                <img src={data.attachments[0].publicURL} alt={data.title} className="sr-only" />
-            </div>
-        </a>
+        <GridCover url={data.url} image={data.attachments[0].publicURL} title={data.title} />
         <div className={styles.content}>
             <h2>
                 <a href={data.url}>{data.title}</a>
