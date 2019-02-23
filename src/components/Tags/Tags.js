@@ -20,35 +20,35 @@ const stackMap = {
 const langMap = {
     azerbaijani: 'AZ',
     english: 'EN',
-    russian: 'RU'
+    russian: 'RU',
+    turkish: 'TR',
+    azerbaijan: 'AZ'
 };
 
-const Tag = ({ tag }) => {
-    if (tag in langMap) {
-        return <li className={styles.language}>{langMap[tag]}</li>;
-    }
+const LangTag = ({ tag }) => <li className={styles.language}>{tag}</li>;
 
-    if (tag in stackMap) {
-        return (
-            <li className={`${styles.stack} ${styles[stackMap[tag]]}`}>
-                <FontAwesomeIcon icon={['fab', stackMap[tag]]} />
-                <span className="sr-only">{stackMap[tag]}</span>
-            </li>
-        );
-    }
-
-    return null;
-};
+const StackTag = ({ tag }) => (
+    <li className={`${styles.stack} ${styles[tag]}`}>
+        <FontAwesomeIcon icon={['fab', tag]} />
+        <span className="sr-only">{tag}</span>
+    </li>
+);
 
 const Tags = ({ tags }) => (
     <ul className={styles.tags}>
         {tags
-            .sort((a, b) => {
-                if (a in langMap) return -1;
-                return a - b;
-            })
+            .filter(tag => tag in langMap)
+            .map(tag => langMap[tag])
+            .filter((tag, idx, arr) => arr.indexOf(tag) === idx)
             .map(tag => (
-                <Tag key={tag} tag={tag} />
+                <LangTag key={tag} tag={tag} />
+            ))}
+        {tags
+            .filter(tag => tag in stackMap)
+            .map(tag => stackMap[tag])
+            .filter((tag, idx, arr) => arr.indexOf(tag) === idx)
+            .map(tag => (
+                <StackTag key={tag} tag={tag} />
             ))}
     </ul>
 );
