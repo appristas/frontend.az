@@ -8,6 +8,7 @@
     flex-direction: row;
     align-items: center;
     height: 90px;
+    z-index: 14;
 }
 
 .header .logo {
@@ -18,18 +19,18 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-@media only screen and (min-width: 1023px) {
-    .header,
-    .toggleCol {
-        display: none;
-    }
-}
-
 .toggleCol {
     position: fixed;
     left: 35px;
     top: 30px;
     z-index: 15;
+}
+
+@media only screen and (min-width: 1023px) {
+    .header,
+    .toggleCol {
+        display: none;
+    }
 }
 
 .toggle {
