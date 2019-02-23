@@ -49,7 +49,7 @@ Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bil
 
 #### Medium yazılarının qaydaları:
 
-1. Yazıda **mütləq** şəkil olmalıdır. Əgər şəkil düzəltməkdə və ya tapmamda çətinlik çəkirsinizsə, [Unsplash](https://www.unsplash.com) səhifəsindən pulsuz şəkillər tapa bilərsiniz.
+1. Yazıda **mütləq** şəkil olmalıdır. Əgər şəkil düzəltməkdə və ya tapmaqla çətinlik çəkirsinizsə, [Unsplash](https://www.unsplash.com) səhifəsindən pulsuz şəkillər tapa bilərsiniz.
 2. Əgər kiminsə şəklindən istifadə olunursa, mütləq çəkənə attribution edilməlidir. Bu bizim layihənin şəffaflığını göstərən əlamətlərdən biridi. Lisenziyası olmayan şəkillər qəbul olunmayacak.
 3. Yazının dili Tag göstərilməlidir (English, Azerbaijani, Russian, Turkish). **Qeyd:** Bu layihənin indiki mərhələsində yalnız Azərbaycan dilindəki yazılar qəbul olunur.
 4. İşlətdiyiniz texnologiya Tag ilə göstərilməlidir.
