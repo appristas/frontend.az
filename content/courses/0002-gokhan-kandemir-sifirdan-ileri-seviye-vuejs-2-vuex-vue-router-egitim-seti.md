@@ -4,7 +4,7 @@ price: $100/ay
 author: Gökhan Kandemir
 tags:
     - turkish
-    - react
+    - vue
 type: Onlayn
 provider: udemy.com
 duration:
