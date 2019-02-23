@@ -5,6 +5,7 @@ import { Layout } from '../components/Layout';
 import CourseItem from '../components/CourseItem/CourseItem';
 
 import SEO from '../components/seo';
+import { Row } from '../components/Grid';
 
 export default ({ data }) => {
     const courses = data.allMarkdownRemark.edges.map(({ node }) => (
@@ -14,7 +15,9 @@ export default ({ data }) => {
     return (
         <>
             <SEO title="Kurslar" />
-            <Layout>{courses}</Layout>
+            <Layout>
+                <Row>{courses}</Row>
+            </Layout>
         </>
     );
 };

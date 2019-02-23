@@ -1,8 +1,17 @@
 .course {
-    width: 300px;
+    width: calc(50% - 20px);
     position: relative;
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1023px) {
+    .course {
+        width: calc(33.3333% - 20px);
+    }
 }
 
 .cover {
@@ -32,6 +41,7 @@
 .content {
     padding: 15px;
     background: #f8f8f8;
+    flex: 1;
 }
 
 .content h2 {
