@@ -10,15 +10,10 @@ Buradakı resursların və paylaşmaların şəffaflığını göstərmək üç�
 ## İştirakçılar
 
 -   Gasim Gasimzada - Layihə Başladıcısı (Appristas)
-
 -   İlkin Quluzadə - Yazar
-
 -   Orxan Şükürlü - Yazar
-
 -   Fuad Rüstəmzadə - Yazar
-
 -   Abdulla Emçiyev - Yazar
-
 -   Rufət Ağazadə - Loqo Dizayn
 
 ## İştirakçı Qaydaları
