@@ -44,7 +44,7 @@ Before writing to a Medium publication, writers must be added as a member to the
 
 [Frontend Azerbaijan - Medium Qeydiyyat](https://docs.google.com/forms/d/e/1FAIpQLSeQkp8PyHC2TLdmw0ngBhC6DoiTzVDC9XzRsoN89xKkyAOI2A/viewform)
 
-Once you have joined our publication, you can add your post to our publication. All the posts must be approved by project editors to before publishing. Please refer to the [Medium Help URL](https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication) below on how to add your post to a publication (English).
+Once you have joined our publication, you can add your post to our publication. All the posts must be approved by project editors before publishing. Please refer to the [Medium Help URL](https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication) below on how to add your post to a publication (English).
 
 #### Medium Post Guidelines
 
