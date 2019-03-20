@@ -65,6 +65,6 @@ Bu səhifə MIT licenziyası ilə dərc olunub. Daha ətraflı məlumat üçün 
 
 <div class="appristas-logo">
 
-[![Appristas](/static/images/appristas-h.png)](https://appristas.io)
+[![Appristas](/images/appristas-h.png)](https://appristas.io)
 
 </div>
