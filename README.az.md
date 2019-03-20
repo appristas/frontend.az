@@ -2,7 +2,7 @@
 
 [English version](https://github.com/appristas/frontend.az/blob/master/README.md)
 
-Bu layihə Azərbaycanda Frontend üzərindən başlamağı və təkminləşdirməyi asanlaşdırmaq üçün qurulmuşdur. Burada frontend ilə bağlı müxtəlif dillərdə yazılar, videolar, onlayn və yerli kurslar, və Azərbaycanda umumi development və frontend üzrə baş verən tədbirləri tapmaq olar.
+Bu layihə Azərbaycanda Frontend üzərindən başlamağı və təkmilləşdirməyi asanlaşdırmaq üçün qurulmuşdur. Burada frontend ilə bağlı müxtəlif dillərdə yazılar, videolar, onlayn və yerli kurslar və Azərbaycanda ümumi development və frontend üzrə baş verən tədbirləri tapmaq olar.
 
 Buradakı resursların və paylaşmaların şəffaflığını göstərmək üçün bu sayt Open Source-dur və bütün yazılar Medium platformasında dərc edilir.
 
@@ -22,17 +22,17 @@ Buradakı resursların və paylaşmaların şəffaflığını göstərmək üç�
 
 ## İştirakçı Qaydaları
 
-Aşağıda müxtəlif formalı qatqılar haqqında məlumat verilmisşdir.
+Aşağıda müxtəlif formalı qatqılar haqqında məlumat verilmişdir.
 
 ### Yeni resursun əlavəsi
 
-Əgər siz öz və ya başqa bir resursu saytda görmək istəyirsinizsə aşağıdakı linkindən istifadə edib formanı doldurun:
+Əgər siz öz və ya başqa bir resursu saytda görmək istəyirsinizsə aşağıdakı linkdən istifadə edib formanı doldurun:
 
 [Frontend Azərbaycan - Yeni Resurs Əlavəsi](https://docs.google.com/forms/d/e/1FAIpQLSchkHEKzo1ptX_64LdigSYnsTscVRL_BCSVsbrXTdBZAphk-A/viewform)
 
 ### Səhvlərin düzəlişi
 
-Əgər saytda hər hansı bir səhv görsəniz — termin, tərcümə səhvi; design səhvi; və ya funskional səhv — Github səhifəmizdən [Issue](https://github.com/appristas/frontend.az/issues) və ya [Pull Request](https://github.com/appristas/frontend.az/pulls) yaradın.
+Əgər saytda hər hansı bir səhv görsəniz — termin, tərcümə səhvi; design səhvi; və ya funksional səhv — Github səhifəmizdən [Issue](https://github.com/appristas/frontend.az/issues) və ya [Pull Request](https://github.com/appristas/frontend.az/pulls) yaradın.
 
 ### Təkliflər
 
@@ -44,12 +44,12 @@ Mediumda yazının nəşriyyata əlavə olunması üçün ilk öncə nəşriyyat
 
 [Frontend Azerbaijan - Medium Qeydiyyat](https://docs.google.com/forms/d/e/1FAIpQLSeQkp8PyHC2TLdmw0ngBhC6DoiTzVDC9XzRsoN89xKkyAOI2A/viewform)
 
-Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bilərsiniz. Səhifədəki bütün yazılar təsdiqlənməlidir. Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bilərsiniz. Səhifədəki bütün yazılar təsdiqlənməlidir. Yazınızı nəşriyyata dərc etmək üçün, [Medium Help URL-ına](https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication) baxın.
+Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bilərsiniz. Səhifədəki bütün yazılar təsdiqlənməlidir. Yazınızı nəşriyyata dərc etmək üçün, [Medium Help URL-ına](https://help.medium.com/hc/en-us/articles/213904978-Add-draft-or-post-to-publication) baxın.
 
 #### Medium yazılarının qaydaları:
 
 1. Yazıda **mütləq** şəkil olmalıdır. Əgər şəkil düzəltməkdə və ya tapmaqla çətinlik çəkirsinizsə, [Unsplash](https://www.unsplash.com) səhifəsindən pulsuz şəkillər tapa bilərsiniz.
-2. Əgər kiminsə şəklindən istifadə olunursa, mütləq çəkənə attribution edilməlidir. Bu bizim layihənin şəffaflığını göstərən əlamətlərdən biridi. Lisenziyası olmayan şəkillər qəbul olunmayacak.
+2. Əgər kiminsə şəklindən istifadə olunursa, mütləq çəkənə attribution edilməlidir. Bu bizim layihənin şəffaflığını göstərən əlamətlərdən biridir. Lisenziyası olmayan şəkillər qəbul olunmayacaq.
 3. Yazının dili Tag göstərilməlidir (English, Azerbaijani, Russian, Turkish). **Qeyd:** Bu layihənin indiki mərhələsində yalnız Azərbaycan dilindəki yazılar qəbul olunur.
 4. İşlətdiyiniz texnologiya Tag ilə göstərilməlidir.
 
