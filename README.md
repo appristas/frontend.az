@@ -9,15 +9,10 @@ In order to provide transparency of provided content, the project’s website is
 ## Contributors
 
 -   Gasim Gasimzada - Project Creator (Appristas)
-
 -   Ilkin Guluzada - Writer
-
 -   Orxan Shukurlu - Writer
-
 -   Fuad Rustamzada - Writer
-
 -   Abdulla Emchiyev - Writer
-
 -   Rufat Agazade - Logo Design
 
 ## Contribution Guidelines
