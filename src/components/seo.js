@@ -24,6 +24,10 @@ function SEO({ description, lang, keywords, title }) {
                         <meta property="twitter:description" content={metaDescription} />
                         <link rel="shortcut icon" href={withPrefix('/favicon/favicon.ico')} />
                         <link
+                            href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&amp;subset=latin-ext"
+                            rel="stylesheet"
+                        />
+                        <link
                             rel="apple-touch-icon"
                             sizes="180x180"
                             href={withPrefix('/favicon/apple-touch-icon.png')}
