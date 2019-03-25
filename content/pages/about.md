@@ -3,6 +3,9 @@ path: '/about'
 title: 'Layihə Haqqında'
 ---
 
+[![Build Status](https://travis-ci.org/appristas/frontend.az.svg?branch=master)](https://travis-ci.org/appristas/frontend.az)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+
 Bu layihə Azərbaycanda Frontend üzərindən başlamağı və təkmilləşdirməyi asanlaşdırmaq üçün qurulmuşdur. Burada frontend ilə bağlı müxtəlif dillərdə yazılar, videolar, onlayn və yerli kurslar və Azərbaycanda ümumi development və frontend üzrə baş verən tədbirləri tapmaq olar.
 
 Buradakı resursların və paylaşmaların şəffaflığını göstərmək üçün bu sayt Open Source-dur və bütün yazılar Medium platformasında dərc edilir.

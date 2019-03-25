@@ -1,5 +1,8 @@
 # Frontend Azerbaijan
 
+[![Build Status](https://travis-ci.org/appristas/frontend.az.svg?branch=master)](https://travis-ci.org/appristas/frontend.az)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+
 [Azerbaijani version](https://frontend.az/about)
 
 Frontend Azerbaijan is a project designed to aid people who want to start or enhance their knowledge in frontend development. This site aggregates posts, videos, courses in various languages; additionally, events regarding software development and frontend development that are held locally (in Azerbaijan) will also be posted here.
