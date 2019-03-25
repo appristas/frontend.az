@@ -1,6 +1,6 @@
 # Frontend Azerbaijan
 
-[Azerbaijani version](https://github.com/appristas/frontend.az/blob/master/content/pages/about.md)
+[Azerbaijani version](https://frontend.az/about)
 
 Frontend Azerbaijan is a project designed to aid people who want to start or enhance their knowledge in frontend development. This site aggregates posts, videos, courses in various languages; additionally, events regarding software development and frontend development that are held locally (in Azerbaijan) will also be posted here.
 
