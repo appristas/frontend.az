@@ -48,16 +48,16 @@ Once you have joined our publication, you can add your post to our publication. 
 3. Post language must be defined with a tag (Azerbaijani, English, Russian, Turkish). **Note:** Currently, only Azerbaijani posts are accepted to our publication. This rule will definitely change in the future once we have enough posts in Azerbaijani language
 4. Used technology in the post must be defined in a tag
 
-## Links
-
--   [Github](https://github.com/appristas/frontend.az)
--   [Travic CI](https://travis-ci.org/appristas/frontend.az)
-
 ## Tests
 
 Cross Browser Tests are supported by:
 
 [![Browserstack](https://raw.githubusercontent.com/appristas/frontend.az/master/static/images/browserstack.png)](https://browserstack.com)
+
+## Links
+
+-   [Github](https://github.com/appristas/frontend.az)
+-   [Travic CI](https://travis-ci.org/appristas/frontend.az)
 
 ## License
 

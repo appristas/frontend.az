@@ -49,16 +49,16 @@ Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bil
 3. Yazının dili Tag göstərilməlidir (English, Azerbaijani, Russian, Turkish). **Qeyd:** Bu layihənin indiki mərhələsində yalnız Azərbaycan dilindəki yazılar qəbul olunur.
 4. İşlətdiyiniz texnologiya Tag ilə göstərilməlidir.
 
-## Linklər
-
--   [Github](https://github.com/appristas/frontend.az)
--   [Travic CI](https://travis-ci.org/appristas/frontend.az)
-
 ## Testlər
 
 Kross Brauzer Testləri Browserstack tərəfindən Dəstəklənir:
 
 [![Browserstack](/images/browserstack.png)](https://browserstack.com)
+
+## Linklər
+
+-   [Github](https://github.com/appristas/frontend.az)
+-   [Travic CI](https://travis-ci.org/appristas/frontend.az)
 
 ## Lisenziya
 
