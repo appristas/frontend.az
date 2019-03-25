@@ -54,6 +54,12 @@ Nəşriyyata qəbul olduqdan sonra, yazını bizim nəşriyyata əlavə edə bil
 -   [Github](https://github.com/appristas/frontend.az)
 -   [Travic CI](https://travis-ci.org/appristas/frontend.az)
 
+## Testlər
+
+Kross Brauzer Testləri Browserstack tərəfindən Dəstəklənir:
+
+[![Browserstack](/images/browserstack.png)](https://browserstack.com)
+
 ## Lisenziya
 
 Bu səhifə MIT licenziyası ilə dərc olunub. Daha ətraflı məlumat üçün Github səhifəsində [lisenziya faylına](https://github.com/appristas/frontend.az/blob/master/LICENSE) baxın.

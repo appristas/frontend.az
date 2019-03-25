@@ -53,6 +53,12 @@ Once you have joined our publication, you can add your post to our publication. 
 -   [Github](https://github.com/appristas/frontend.az)
 -   [Travic CI](https://travis-ci.org/appristas/frontend.az)
 
-## Licence
+## Tests
 
-This website is licensed under MIT License. For detailed information, check out the [licence file](https://github.com/appristas/frontend.az/blob/master/LICENSE) in Github.
+Cross Browser Tests are supported by:
+
+[![Browserstack](https://raw.githubusercontent.com/appristas/frontend.az/master/static/images/browserstack.png)](https://browserstack.com)
+
+## License
+
+This website is licensed under MIT License. For detailed information, check out the [license file](https://github.com/appristas/frontend.az/blob/master/LICENSE) in Github.
