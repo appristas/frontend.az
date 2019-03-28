@@ -63,6 +63,17 @@ export default class Sidebar extends Component {
                                                 <span className="sr-only">Medium</span>
                                             </a>
                                         </li>
+                                        <li>
+                                            <a
+                                                href="https://discord.gg/qXPdPws"
+                                                title="Discord"
+                                                target="_blank"
+                                                rel="external noopener noreferrer"
+                                            >
+                                                <FontAwesomeIcon icon={['fab', 'discord']} />
+                                                <span className="sr-only">Discord</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

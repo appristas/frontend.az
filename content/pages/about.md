@@ -3,8 +3,9 @@ path: '/about'
 title: 'Layihə Haqqında'
 ---
 
-[![Build Status](https://travis-ci.org/appristas/frontend.az.svg?branch=master)](https://travis-ci.org/appristas/frontend.az)
+[![chat on discord](https://img.shields.io/discord/560751881283174412.svg)](https://discord.gg/qXPdPws)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Build Status](https://travis-ci.org/appristas/frontend.az.svg?branch=master)](https://travis-ci.org/appristas/frontend.az)
 
 Bu layihə Azərbaycanda Frontend üzərindən başlamağı və təkmilləşdirməyi asanlaşdırmaq üçün qurulmuşdur. Burada frontend ilə bağlı müxtəlif dillərdə yazılar, videolar, onlayn və yerli kurslar və Azərbaycanda ümumi development və frontend üzrə baş verən tədbirləri tapmaq olar.
 
@@ -62,6 +63,7 @@ Kross Brauzer Testləri Browserstack tərəfindən Dəstəklənir:
 
 -   [Github](https://github.com/appristas/frontend.az)
 -   [Travic CI](https://travis-ci.org/appristas/frontend.az)
+-   [Discord](https://discord.gg/qXPdPws)
 
 ## Lisenziya
 
